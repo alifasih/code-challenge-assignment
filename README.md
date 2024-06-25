@@ -1,6 +1,6 @@
 # Welcome to the Badkoobeh code challenge assignment.
 
-We created this repository to [assign](ASSIGNMENT.md) a code challenge to the  developers who will be interviewed and evaluated during our company's recruitment program.
+We created this repository to assign a code challenge to the  developers who will be interviewed and evaluated during our company's recruitment program.
 
 **CAUTION: DO NOT PULL REQUEST TO THIS REPOSITY. ALL THE INCOMING PULL REQUESTS WILL BE IGNORED.**
 
