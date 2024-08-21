@@ -41,21 +41,21 @@ Looking around your colleague's desk, you find a list of dates scribbled on a po
 
 **We want you to think through and implement the user stories Of an application to implement a solution that solves the problem and that you would approve and could stand for.**
 
-Business requirements for calculating vehicle tolls are given below. Implement these requirements in the form of User Stories. 
+ - Business requirements for calculating vehicle tolls are given below. Implement these requirements in the form of User Stories. 
 
-Implemented user stories must be written based on one of the standard formats.
+ - Implemented user stories must be written based on one of the standard formats.
 
-Implemented user stories should not violate SMART and INVEST principles.
+ - Implemented user stories should not violate SMART and INVEST principles.
 
-For each User Story, you must specify the appropriate Acceptance Criteria.
+ - For each User Story, you must specify the appropriate Acceptance Criteria.
 
 ## Congestion tax rules in Tehran
 
-Congestion tax is charged during fixed hours for vehicles driving into and out of Tehran.
+- Congestion tax is charged during fixed hours for vehicles driving into and out of Tehran.
 
-The maximum amount per day and vehicle is 800,000 Rials.
+- The maximum amount per day and vehicle is 800,000 Rials.
 
-The tax is charged at half price on weekends (Thursdays and Fridays), public holidays, and days before a public holiday.
+- The tax is charged at half price on weekends (Thursdays and Fridays), public holidays, and days before a public holiday.
 
 ### Hours and amounts for congestion tax in Tehran
 
