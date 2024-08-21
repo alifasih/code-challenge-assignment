@@ -84,3 +84,7 @@ A single charge rule applies in Tehran. Under this rule, a vehicle that passes s
 - Taxis
 - Military vehicles
 - Foreign vehicles
+
+## Bonus Scenario
+
+Just as you finish implementing the user stories, your manager shows up and tells you that the same application should be used in other cities with different tax rules. These tax rules need to be handled as content outside the application because different content editors for different cities will be in charge of keeping the parameters up to date. Add the new requirements provided by the manager to your scenarios and user stories or change them if needed.
