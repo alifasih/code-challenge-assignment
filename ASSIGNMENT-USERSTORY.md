@@ -39,7 +39,7 @@ Looking around your colleague's desk, you find a list of dates scribbled on a po
 
 ## Assignment
 
-**We want you to think through and implement the user stories Of an application to implement a solution that solves the problem and that you would approve and could stand for.**
+**We want you to think through and write the user stories of an application to implement a solution that solves the problem and that you would approve and could stand for.**
 
  - Business requirements for calculating vehicle tolls are given below. Implement these requirements in the form of User Stories. 
 
