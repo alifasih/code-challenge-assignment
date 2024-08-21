@@ -39,58 +39,48 @@ Looking around your colleague's desk, you find a list of dates scribbled on a po
 
 ## Assignment
 
-**We want you to think through and implement the changes and additions required to implement a solution that solves the problem and that you would approve and could stand for.**
+**We want you to think through and implement the user stories Of an application to implement a solution that solves the problem and that you would approve and could stand for.**
 
-- The application currently doesn't have an entry point, add a way to call the calculation with different inputs, preferably over HTTP.
-- There is no particular structure to the code so there are several improvements that can be made.
+Business requirements for calculating vehicle tolls are given below. Implement these requirements in the form of User Stories. 
 
-You may limit the scope to the year 2013.
+Implemented user stories must be written based on one of the standard formats.
 
-The starting code is provided in Java, C#, Python, Go, TypeScript and Kotlin, pick the language you are most comfortable with. If you want to write your code using a different language, feel free.
+Implemented user stories should not violate SMART and INVEST principles.
 
-## Congestion tax rules in Gothenburg
+For each User Story, you must specify the appropriate Acceptance Criteria.
 
-Congestion tax is charged during fixed hours for vehicles driving into and out of Gothenburg.
+## Congestion tax rules in Tehran
 
-The maximum amount per day and vehicle is 60 SEK.
+Congestion tax is charged during fixed hours for vehicles driving into and out of Tehran.
 
-The tax is not charged on weekends (Saturdays and Sundays), public holidays, days before a public holiday and during the month of July.
+The maximum amount per day and vehicle is 800,000 Rials.
 
-### Hours and amounts for congestion tax in Gothenburg
+The tax is charged at half price on weekends (Thursdays and Fridays), public holidays, and days before a public holiday.
+
+### Hours and amounts for congestion tax in Tehran
 
 | Time        | Amount |
 | ----------- | :----: |
-| 06:00–06:29 | SEK 8  |
-| 06:30–06:59 | SEK 13 |
-| 07:00–07:59 | SEK 18 |
-| 08:00–08:29 | SEK 13 |
-| 08:30–14:59 | SEK 8  |
-| 15:00–15:29 | SEK 13 |
-| 15:30–16:59 | SEK 18 |
-| 17:00–17:59 | SEK 13 |
-| 18:00–18:29 | SEK 8  |
-| 18:30–05:59 | SEK 0  |
+| 06:00–06:29 | 100,000 Rials |
+| 06:30–06:59 | 150,000 Rials |
+| 07:00–07:59 | 200,000 Rials |
+| 08:00–08:29 | 150,000 Rials |
+| 08:30–14:59 | 100,000 Rials |
+| 15:00–15:29 | 150,000 Rials |
+| 15:30–16:59 | 200,000 Rials |
+| 17:00–17:59 | 150,000 Rials |
+| 18:00–22:29 | 100,000 Rials |
+| 22:30–05:59 | 0       Rials |
 
 ### The single charge rule
 
-A single charge rule applies in Gothenburg. Under this rule, a vehicle that passes several tolling stations within 60 minutes is only taxed once. The amount that must be paid is the highest one.
+A single charge rule applies in Tehran. Under this rule, a vehicle that passes several tolling stations within 60 minutes is only taxed once. The amount that must be paid is the highest one.
 
 ### Tax Exempt vehicles
 
 - Emergency vehicles
 - Busses
 - Diplomat vehicles
-- Motorcycles
+- Taxis
 - Military vehicles
 - Foreign vehicles
-
-## Bonus Scenario
-
-Just as you finished coding, your manager shows up and tells you that the same application should be used in other cities with different tax rules. These tax rules need to be handled as content outside the application because different content editors for different cities will be in charge of keeping the parameters up to date.
-
-Move the parameters used by the application to an outside data store of your own choice to be read during runtime by the application.
-
-## Further questions
-
-As you take on the assignment you will undoubtedly have questions. Please write these questions down in a file named `questions.md` and submit that along with your solution. Although we cannot answer them in order for you to complete the assignment, they will be helpful
-in evaluating your solution.
